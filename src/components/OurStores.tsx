@@ -71,7 +71,7 @@ export default function OurStores() {
                 </a>
                 
                 <a 
-                  href={`https://api.whatsapp.com/send?phone=5519999206746&text=${encodeURIComponent('Olá, gostaria de falar com um consultor da ' + store.name)}`}
+                  href={`https://api.whatsapp.com/send?phone=5519995142727&text=${encodeURIComponent('Olá, gostaria de falar com um consultor da ' + store.name)}`}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="comic-button"
