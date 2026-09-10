@@ -67,6 +67,15 @@ export default function Footer() {
           </div>
         </div>
       </div>
+
+      <div className="border-t border-white/10 mt-16 pt-8 pb-4">
+        <div className="px-gutter max-w-max-width mx-margin-desktop flex flex-col md:flex-row justify-between items-center gap-4 text-xs opacity-70">
+          <p>&copy; {new Date().getFullYear()} Unimais Veículos. Todos os direitos reservados.</p>
+          <p>
+            Desenvolvido por <a href="https://www.fabricapublicidade.com.br/" target="_blank" rel="noopener noreferrer" className="hover:text-action-orange transition-colors">Fábrica Publicidade & Digital</a>
+          </p>
+        </div>
+      </div>
     </footer>
   );
 }
